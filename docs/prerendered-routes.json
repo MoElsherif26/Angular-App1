@@ -1,0 +1,8 @@
+{
+  "routes": {
+    "/Angular-App1": {},
+    "/Angular-App1/about": {},
+    "/Angular-App1/contact": {},
+    "/Angular-App1/portfolio": {}
+  }
+}
