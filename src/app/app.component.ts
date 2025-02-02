@@ -8,10 +8,11 @@ import { ContactComponent } from "./contact/contact.component";
 import { FooterComponent } from './footer/footer.component';
 import { CopyrightComponent } from "./copyright/copyright.component";
 import { PortfolioModalsComponent } from "./portfolio-modals/portfolio-modals.component";
+import { MoviesComponent } from "./movies/movies.component";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, NavbarComponent, MastheadComponent, PortfolioComponent, AboutComponent, ContactComponent, FooterComponent, CopyrightComponent, PortfolioModalsComponent],
+  imports: [RouterOutlet, NavbarComponent, MastheadComponent, PortfolioComponent, AboutComponent, ContactComponent, FooterComponent, CopyrightComponent, PortfolioModalsComponent, MoviesComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
